@@ -9,4 +9,5 @@ def vistaApp2_fecha_hora(request):
     return HttpResponse(p)
 
 def vistaApp2_Lista(request):
-    pass
+    lista = "<h4>Lista desordenada</h4><ul><li>Hola</li><li>chao</li></ul><h4>Lista Ordenada</h4><ol><li>Me quedo sin tiempo</li></ol>"
+    return HttpResponse(lista)
