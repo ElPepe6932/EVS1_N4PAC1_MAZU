@@ -19,5 +19,6 @@ from mazu_app1 import views as app1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vista1/', app1.vistaUno)
+    path('vista1/', app1.vistaUno),
+    path('vista2/', app1.tablaUno),
 ]

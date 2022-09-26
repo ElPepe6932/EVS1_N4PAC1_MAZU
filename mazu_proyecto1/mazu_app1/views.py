@@ -8,5 +8,5 @@ def vistaUno(request):
     return HttpResponse(s)
 
 def tablaUno(request):
-    tabla = "<h2>Tabla para Evaluacion</h2><table><tr><th>Indice uno</th><td>Dato uno</td></tr></table>"
+    tabla = "<h2>Tabla para Evaluacion</h2><table border=solid><tr><th>Indice uno</th></tr><td>Dato uno</td></table>"
     return HttpResponse(tabla)
