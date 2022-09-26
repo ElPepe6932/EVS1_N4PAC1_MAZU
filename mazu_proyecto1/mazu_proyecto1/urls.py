@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from mazu_app1 import views as app1 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('vista1/', app1.vistaUno)
 ]

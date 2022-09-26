@@ -6,3 +6,6 @@ from django.http import HttpResponse
 def vistaUno(request):
     s = "<h1>Hola a la Evaluacion 1</h1><br><hr><p>hablar hablar hablar</p><button>Inicio</button>"
     return HttpResponse(s)
+
+def tablaUno(request):
+    tabla = ""
