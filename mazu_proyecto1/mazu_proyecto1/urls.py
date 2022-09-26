@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from mazu_app2 import views as app2 
-
 from mazu_app1 import views as app1 
 
 urlpatterns = [
