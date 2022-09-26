@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from mazu_app2 import views as app2 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('vista1app2/', app2.vistaApp2_fecha_hora),
+    path('vista2app2/', app2.vistaApp2_Lista),
 ]
